@@ -28,7 +28,7 @@ jobs:
       - name: Deploy to surge.sh
         uses: dswistowski/surge-sh-action@v1
         with:
-          domain: 'cvitalino.surge.sh'
+          domain: 'vitalino.surge.sh'
           project: './dist'
           login: ${{ 'vitalinocode@gmail.com' }}
           token: ${{ 'd7f88ba4c084ffbd1f709a0a0a879f51' }}
